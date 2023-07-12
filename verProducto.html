@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">    <link href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Producto seleccionado</title>
+
+</head>
+<body>
+
+    <header>   
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">T-Rex Sports</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <spanclass="navbar-toggler-icon"></span>
+              </button>
+    
+    
+          
+              <form class="d-flex" role="search">
+                <input id= "textoBusqueda" class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"  id= "btnBusqueda" onclick="filtrarProductos()">Buscar</button>
+              </form>
+
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <div class="text-end m-4">
+      <a href="carrito.html" id="botonCarrito"></a>
+    </div>
+    
+    <br>
+    <br>
+
+<div class="container my-5">
+    <div id="contenido" class="row"></div>
+</div>
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="./JS/funciones.js"></script>
+<script src="./JS/verProducto.js"></script>
+
+</body>
+</html>
