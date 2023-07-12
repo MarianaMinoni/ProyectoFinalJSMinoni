@@ -58,7 +58,7 @@ function renderProductos(){
       <div class="card text-center border border-0">
       <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
       <div class="card-body">
-          <p class="card-text text-danger"><b>$${producto.precio}</b></p>
+          <p class="card-text "><b>$${producto.precio}</b></p>
           <p >${producto.nombre}</p>
        
       </div>
