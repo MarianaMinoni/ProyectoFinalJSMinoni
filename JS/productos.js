@@ -43,7 +43,7 @@ guardarProductosLS();
 
 
 function renderProductos(){
-  let textoBusqueda = document.getElementById("textoBusqueda").value;
+  // let textoBusqueda = document.getElementById("textoBusqueda").value;
   let productos =  cargarProductosLS();
   let contenido = "";
 
