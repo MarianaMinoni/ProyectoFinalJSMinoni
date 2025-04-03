@@ -32,11 +32,3 @@
   --bs-btn-disabled-bg: #cdcdcd;
   --bs-btn-disabled-border-color: #000000;
 }
-
-#footer-colour{
-  background-color: #929fba
-}
-
-#img-section{
-  background-image: url("/Imagenes/banner/banner.jpg")
-}

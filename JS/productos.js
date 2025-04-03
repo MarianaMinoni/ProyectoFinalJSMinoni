@@ -4,8 +4,8 @@
 
 
 const productos = [
-    {id:1, nombre: "Buzo Nike canguro", precio: 6500, imagen: "./imagenes/hombre/buzonike.jpeg"},
-    {id:2, nombre: "Remera Deportiva jaspeada", precio: 4000, imagen: "./imagenes//mujer/remerajaspeada.jpeg"},
+    {id:1, nombre: "Buzo Nike canguro", precio: 6500, imagen: "/imagenes/hombre/buzonike.jpeg"},
+    {id:2, nombre: "Remera Deportiva jaspeada", precio: 4000, imagen: "/imagenes//mujer/remerajaspeada.jpeg"},
     {id:3, nombre: "Medias", precio: 2500, imagen: "./imagenes/medias.jpeg"},
     {id:4, nombre: "Calza de lycra estampada con bolsillos", precio:4500, imagen:"./imagenes/mujer/calzabolsillo.jpeg"},
     {id:5, nombre: "Calza térmica mujer", precio: 3000, imagen: "./imagenes/mujer/calzatermicalisa.jpeg"},
@@ -43,7 +43,7 @@ guardarProductosLS();
 
 
 function renderProductos(){
-  // let textoBusqueda = document.getElementById("textoBusqueda").value;
+  let textoBusqueda = document.getElementById("textoBusqueda").value;
   let productos =  cargarProductosLS();
   let contenido = "";
 
