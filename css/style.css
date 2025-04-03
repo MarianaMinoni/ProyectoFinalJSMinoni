@@ -38,5 +38,7 @@
 }
 
 #img-section{
-  background-image: url("/Imagenes/banner/banner.jpg")
+  background-image: url("/Imagenes/banner/banner.jpg");
+  height: 400px;
+
 }

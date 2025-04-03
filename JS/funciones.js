@@ -99,10 +99,7 @@ function renderBotonCarrito(){
   let botonCarrito= document.getElementById("botonCarrito");
   let contenido= `
 
-  <button type="button" class="btn btn-secondary position-relative">
-  <img src="Imagenes/cart2.svg" alt="carrito" width="32">
-
-<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+<span >
 ${cantidadTotalProductos()}
 </span>
 </button>`;
