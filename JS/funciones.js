@@ -122,7 +122,7 @@ function filtrarProductos() {
         if (productos.length > 0) {
             productos.forEach(producto => {
                 contenido += `<div class="col-md-3 mb-5">
-                <a href="ver-producto.html" onclick="verProducto(${producto.id})" class="text-decoration-none">
+                <a href="pages/verProducto.html" onclick="verProducto(${producto.id})" class="text-decoration-none">
                     <div class="card text-center border border-0">
                         <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
                         <div class="card-body">

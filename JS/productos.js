@@ -54,7 +54,7 @@ function renderProductos(){
     productos.forEach(producto => {
 
       contenido += `<div class="col-md-3">
-      <a href="verProducto.html" onclick="verProducto(${producto.id})" class="text-decoration-none">
+      <a href="pages/verProducto.html" onclick="verProducto(${producto.id})" class="text-decoration-none">
       <div class="card text-center border border-0">
       <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
       <div class="card-body">
