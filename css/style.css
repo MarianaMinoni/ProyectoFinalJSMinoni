@@ -33,13 +33,29 @@
   --bs-btn-disabled-border-color: #000000;
 }
 
+body{
+position: relative;
+padding-bottom: 4em;
+min-height: 100vh;
+
+}
+main{
+  position: relative;
+
+}
+footer{
+position: absolute;
+  /* bottom: 0; */
+  width: 100%;
+}
+
 #footer-colour{
   background-color: #929fba
 }
 
 #img-section{
   background-image: url("/Imagenes/banner/banner\ completo\ sin\ editar.jpg");
-  height: 500px;
+height: 900px;
 
 }
 
@@ -48,9 +64,10 @@
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: rgb(221, 84, 4);
+  color: rgb(56, 70, 109);
   text-decoration: none;
   background: 0 0;
   border: 0;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
 }
+

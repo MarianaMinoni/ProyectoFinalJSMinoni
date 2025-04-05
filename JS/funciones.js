@@ -114,8 +114,10 @@ botonCarrito.innerHTML = contenido;
 
 function filtrarProductos() {
         let productos =  cargarProductosLS();
+        console.log(productos);
         let textoBusqueda = document.getElementById("textoBusqueda").value;
         let contenido = "";
+        
     
         productos = textoBusqueda ? productos.filter(item => item.nombre.toLowerCase().includes(textoBusqueda.toLowerCase())) : productos;
     
@@ -140,4 +142,37 @@ function filtrarProductos() {
         document.getElementById("contenido").innerHTML = contenido;
     };
     
+    function filtrarProductosGenero(genero) {
+      let productos = cargarProductosLS();
+      let contenidoFiltrado = "";
     
+      // Filtramos por género
+      productos = productos.filter(item => item.genero.toLowerCase() === genero.toLowerCase());
+      console.log(productos); 
+    
+      if (productos.length > 0) {
+          productos.forEach(producto => {
+              contenidoFiltrado += `
+                  <div class="col-md-3 mb-5">
+                  <a href="verProducto.html" onclick="verProducto(${producto.id})" class="text-decoration-none">
+                          <div class="card text-center border border-0">
+                              <img src="${producto.imagen}" class="card-img-top" alt="${producto.nombre}">
+                              <div class="card-body">
+                                  <p class="card-text text-primary"><b>$${producto.precio}</b></p>
+                                  <p class="text-secondary">${producto.nombre}</p>
+                              </div>
+                          </div>
+                      </a>
+                  </div>
+              `;
+          });
+      } else {
+          contenidoFiltrado += `
+              <div class="alert alert-danger text-center" role="alert">
+                  No se encontraron productos para el género "${genero}".
+              </div>
+          `;
+      }
+    
+      document.getElementById("contenido-filtrado").innerHTML = contenidoFiltrado;
+    }

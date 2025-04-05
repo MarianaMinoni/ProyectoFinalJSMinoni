@@ -4,22 +4,22 @@
 
 
 const productos = [
-    {id:1, nombre: "Buzo Nike canguro", precio: 6500, imagen: "./imagenes/hombre/buzonike.jpeg"},
-    {id:2, nombre: "Remera Deportiva jaspeada", precio: 4000, imagen: "./imagenes//mujer/remerajaspeada.jpeg"},
-    {id:3, nombre: "Medias", precio: 2500, imagen: "./imagenes/medias.jpeg"},
-    {id:4, nombre: "Calza de lycra estampada con bolsillos", precio:4500, imagen:"./imagenes/mujer/calzabolsillo.jpeg"},
-    {id:5, nombre: "Calza térmica mujer", precio: 3000, imagen: "./imagenes/mujer/calzatermicalisa.jpeg"},
-    {id:6, nombre: "Jogging Adidas de algodón", precio: 5500, imagen: "./imagenes/hombre/pantalonhombreadidas.jpeg"},
-    {id:7, nombre: "Buzo térmico con capucha", precio: 5000, imagen: "./imagenes/mujer/buzotermico.jpeg"},
-    {id:8, nombre: "Camiseta térmica Hombre", precio: 3700, imagen:"./imagenes/hombre/camisetagris.jpeg" },
-    {id:9, nombre: "Camiseta térmica mujer", precio: 3700, imagen: "./imagenes/mujer/camisetamujer.jpeg"},
-    {id:10, nombre: "Camiseta térmica niño", precio: 2500, imagen: "./imagenes/niño/camisetatermicaniño.jpeg"},
-    {id:11, nombre: "Calza térmica niño", precio:2500, imagen: "./imagenes/niño/calzatermicaniño.jpeg"},
-    {id:12, nombre: "Buzo Argentina niño", precio:5000, imagen:"./imagenes/niño/buzoargentina.jpeg"},
-    {id:13, nombre: "Remeras adidas mujer", precio: 2500, imagen: "./imagenes/mujer/remeraadidas.jpeg"},
-    {id:14, nombre: "Cuellito térmico de lycra", precio: 1000, imagen: "./imagenes/cuellito.jpeg"},
-    {id:15, nombre: "Calza Adidas clásica 3 tiras", precio: 4500, imagen: "./imagenes/mujer/calza3tiras.jpeg"},
-    {id:16, nombre: "Top deportivo", precio: 2500, imagen: "./imagenes/mujer/top.jpeg"},
+    {id:1, nombre: "Buzo Nike canguro", precio: 6500, genero: "hombre", imagen: "../imagenes/hombre/buzonike.jpeg"},
+    {id:2, nombre: "Remera Deportiva jaspeada", precio: 4000,genero: "mujer", imagen: "../imagenes//mujer/remerajaspeada.jpeg"},
+    {id:3, nombre: "Medias", precio: 2500,genero: "accesorios",imagen: "../imagenes/medias.jpeg"},
+    {id:4, nombre: "Calza de lycra estampada con bolsillos", precio:4500,genero: "mujer", imagen:"../imagenes/mujer/calzabolsillo.jpeg"},
+    {id:5, nombre: "Calza térmica mujer", precio: 3000,genero: "mujer", imagen: "../imagenes/mujer/calzatermicalisa.jpeg"},
+    {id:6, nombre: "Jogging Adidas de algodón", precio: 5500,genero: "hombre", imagen: "../imagenes/hombre/pantalonhombreadidas.jpeg"},
+    {id:7, nombre: "Buzo térmico con capucha", precio: 5000,genero: "mujer", imagen: "../imagenes/mujer/buzotermico.jpeg"},
+    {id:8, nombre: "Camiseta térmica Hombre", precio: 3700,genero: "hombre", imagen:"../imagenes/hombre/camisetagris.jpeg" },
+    {id:9, nombre: "Camiseta térmica mujer", precio: 3700,genero: "mujer", imagen: "../imagenes/mujer/camisetamujer.jpeg"},
+    {id:10, nombre: "Camiseta térmica niño", precio: 2500,genero: "ninio", imagen: "../imagenes/niño/camisetatermicaniño.jpeg"},
+    {id:11, nombre: "Calza térmica niño", precio:2500,genero: "ninio", imagen: "../imagenes/niño/calzatermicaniño.jpeg"},
+    {id:12, nombre: "Buzo Argentina niño", precio:5000, genero: "ninio", imagen:"../imagenes/niño/buzoargentina.jpeg"},
+    {id:13, nombre: "Remeras adidas mujer", precio: 2500,genero: "mujer", imagen: "../imagenes/mujer/remeraadidas.jpeg"},
+    {id:14, nombre: "Cuellito térmico de lycra", precio: 1000,genero: "accesorios", imagen: "../imagenes/cuellito.jpeg"},
+    {id:15, nombre: "Calza Adidas clásica 3 tiras", precio: 4500,genero: "mujer", imagen: "../imagenes/mujer/calza3tiras.jpeg"},
+    {id:16, nombre: "Top deportivo", precio: 2500,genero: "mujer", imagen: "../imagenes/mujer/top.jpeg"},
    
 ];
 

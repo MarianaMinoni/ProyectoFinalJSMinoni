@@ -8,7 +8,7 @@ function renderProducto() {
     <div class="col-md-4">
         <h3 class="text-center">${producto.nombre}</h3>
         <h4 class="bs-success-text-emphasis text-center"><b>$${producto.precio}</b></h4>
-       <p class="my-5 text-center"> <button class="btn btn-primary" onClick="agregarProducto(${producto.id});"> Agregar (+)</button></p>
+       <p class="my-5 text-center"> <button class="btn btn-primary" onClick="agregarProducto(${producto.id});"> Agregar </button></p>
     </div>`;
     document.getElementById("contenido").innerHTML = contenido
 }

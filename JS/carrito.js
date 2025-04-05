@@ -29,8 +29,8 @@ function renderProductos(){
     let contenido ="";
 
     if(cantidadTotalProductos() > 0){
-       contenido +=  `<td> <button class="btn bg-light btn-sm text-end class= colspan="4"" onClick="vaciarCarrito();"> Vaciar Carrito</button></td>`
-     contenido += `<table class="table">
+       contenido +=  `<td> <button class="btn bg-danger btn-sm text-end class= colspan="4"" onClick="vaciarCarrito();"> Vaciar Carrito</button></td> <br> <br>`
+     contenido += `<table class="table m-5">
      
      <tr >
      <td>Artículo</td>
@@ -48,9 +48,8 @@ function renderProductos(){
         <td class="align-middle"> ${producto.nombre} </td>
         <td class="align-middle">${producto.cantidad} X $${producto.precio} </td>
         <td class="align-middle">$${producto.cantidad * producto.precio} </td>
-        <td class="align-middle"> <img src="imagenes/trash3.svg" alt="eliminar producto" width="24" onClick = "eliminarProducto(${producto.id})" "class="text-end" > </td>
+        <td class="align-middle"> <img src="../imagenes/trash3.svg" alt="eliminar producto" width="24" onClick = "eliminarProducto(${producto.id})" "class="text-end" > </td>
         </tr>`
-
 
 
       });
