@@ -73,23 +73,22 @@ main {
 }
 
 
-#footer-colour{
-  background-color: #979aa0
+
+
+#img-section {
+  background-image: url("/Imagenes/banner/banner completo EDITADO.jpg");
+  background-size: cover;      /* Hace que la imagen cubra todo el div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que se repita */
+  height: 100vh;                /* 100% de la altura de la pantalla */
+  padding: 2rem;
+  margin: 0;                    /* Normalmente mejor sin margen para full screen */
 }
-
-#img-section{
-  background-image: url("/Imagenes/banner/banner\ completo\ EDITADO.jpg");
-height: 900px;
-padding: 2rem;
-margin: 2rem;
-
-}
-
 
 
 
 .navbar {
-  background: linear-gradient(90deg, #e6e2db, #b3b0af) !important;
+  background: linear-gradient(90deg, #8f4986, #858282) !important;
   color: white !important;
   
 }
@@ -121,6 +120,21 @@ margin: 2rem;
 .navbar .dropdown-toggle img {
   border: 2px solid white;
 }
+
+
+#botonCarrito {
+  background-color:#8f4986; /* azul clarito */
+  color: white; /* el texto en blanco */
+ 
+}
+
+
+
+#footer-colour{
+  background-color: #979aa0
+}
+
+
 
 
 
